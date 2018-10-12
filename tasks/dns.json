@@ -1,0 +1,18 @@
+{
+    "description": "Updates a DNS Record In Microsoft Active Directory.",
+    "parameters": {
+      "hostname": {
+        "description": "Machine hostname to apply to DNS",
+        "type": "String"
+      },
+      "domain": {
+        "description": "DNS Zone to Apply To",
+        "type": "String"
+      },
+      "ip": {
+        "description": "IP Address for Machine",
+        "type": "String"
+      }
+    },
+    "input_method": "powershell"
+  }
